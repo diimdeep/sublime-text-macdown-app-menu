@@ -10,7 +10,7 @@
             "platforms": {
                 "osx": [
                     {
-                        "version": "1.0",
+                        "version": "1.0.0",
                         "url": "https://github.com/diimdeep/sublime-text-macdown-app-menu"
                     }
                 ]
