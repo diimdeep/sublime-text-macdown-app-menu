@@ -2,16 +2,16 @@
     "schema_version": "1.1",
     "packages": [
         {
-            "name": "Marked.app Menu",
-            "author": "Jocelyn Mallon, Paul Scott",
-            "description": "Open Marked.app from your menu",
-            "homepage": "https://github.com/icio/sublime-text-marked",
-            "last_modified": "2014-08-11 19:52:11",
+            "name": "Macdown.app Menu",
+            "author": "Dmitry Wolf",
+            "description": "Open Macdown.app from your menu",
+            "homepage": "https://github.com/diimdeep/sublime-text-macdown",
+            "last_modified": "2015-01-27 9:00:00",
             "platforms": {
                 "osx": [
                     {
-                        "version": "1.1.0",
-                        "url": "https://github.com/icio/sublime-text-marked"
+                        "version": "1.0",
+                        "url": "https://github.com/diimdeep/sublime-text-macdown"
                     }
                 ]
             }

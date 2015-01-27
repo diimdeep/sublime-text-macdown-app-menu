@@ -4,7 +4,7 @@ import subprocess
 import sublime_plugin
 
 
-class MarkedCommand(sublime_plugin.WindowCommand):
+class MacdownCommand(sublime_plugin.WindowCommand):
     def run(self):
         filename = self.window.active_view().file_name()
         if filename is None:
@@ -15,7 +15,7 @@ class MarkedCommand(sublime_plugin.WindowCommand):
         for k, v in proc_env.items():
             proc_env[k] = os.path.expandvars(v).encode(encoding)
 
-        for app in ('Marked 2', 'Marked'):
+        for app in ('Macdown'):
             try:
                 subprocess.check_call(
                     ['open', '-a', app, filename],

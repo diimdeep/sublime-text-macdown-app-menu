@@ -1,13 +1,13 @@
-Sublime Text 2/3 - Marked App Menu plugin
+Sublime Text 2/3 - Macdown App Menu plugin
 =========================================
 
-Adds a handy menu item that opens [Marked 2.app](http://marked2app.com/) or [Marked.app](http://markedapp.com/) to preview your current file.
+Adds a handy menu item that opens [Macdown.app](http://macdown.uranusjr.com/)
 
-**Issues:** https://github.com/icio/sublime-text-marked/issues
+**Issues:** https://github.com/diimdeep/sublime-text-macdown-app-menu/issues
 
 ![screenshot](http://i.imgur.com/oCEb7.jpg)
 
-Adapted from the excellent [Github for mac](https://github.com/csytan/sublime-text-2-github) plugin for Sublime Text by Chris Tan. Originally developed by [jocelynmallon](https://github.com/jocelynmallon), now supported by [icio](https://github.com/icio).
+Adapted from [Marked App Menu](https://github.com/icio/sublime-text-marked) plugin for Sublime Text by Chris Tan. Originally developed by [jocelynmallon](https://github.com/jocelynmallon) and [icio](https://github.com/icio).
 
 
 ## Installation Instructions
@@ -16,38 +16,38 @@ Adapted from the excellent [Github for mac](https://github.com/csytan/sublime-te
 
 * Install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
 * Select "Package Control: Install Package" from the Command Palette (⌘⇧P)
-* Find "Marked App Menu" and select
+* Find "Macdown App Menu" and select
 
 **Manually:**
 
-* Install [Marked 2.app](http://marked2app.com/) ([App Store](https://itunes.apple.com/gb/app/marked-2/id890031187?mt=12)) or [Marked.app](http://markedapp.com/) ([App Store](http://itunes.apple.com/us/app/marked/id448925439?ls=1&mt=12))
-* Download [sublime-text-marked](https://github.com/icio/sublime-text-marked/zipball/master) and copy unzipped folder to your Sublime Text packages folder (Sublime Text (2) → Preferences → Browse Packages...)
+* Install [Macdown 2.app](http://macdown.uranusjr.com/)  `brew cask install macdown.`
+* Download [sublime-text-macdown-app-menu](https://github.com/diimdeep/sublime-text-macdown-app-menu/zipball/master) and copy unzipped folder to your Sublime Text packages folder (Sublime Text (2) → Preferences → Browse Packages...)
 * Restart Sublime Text
 
 ```bash
 # For Sublime Text 2
 cd ~/Library/Application Support/Sublime Text 2/Packages
-mkdir Marked.app\ Menu
-curl -L https://github.com/icio/sublime-text-marked/tarball/master | tar --strip-components 1 -C Marked.app\ Menu -xvf -
+mkdir Macdown.app\ Menu
+curl -L https://github.com/diimdeep/sublime-text-macdown/tarball/master | tar --strip-components 1 -C Macdown.app\ Menu -xvf -
 ```
 
 
 ## Usage
 
-With the view selected containing the file you wish to preview in Marked:
+With the view selected containing the file you wish to preview in Macdown:
 
 **Command Palette:**
 
-* Select "Marked" from the Command Palette (⌘⇧P)
+* Select "Macdown" from the Command Palette (⌘⇧P)
 
 **Keyboard Shortcut:**
 
 * Add the following to your User Key Binding, adjusting the key configuration to taste:
 
     ```json
-    { "keys": ["super+alt+m"], "command": "marked" }
+    { "keys": ["super+alt+m"], "command": "macdown" }
     ```
 
 **Menus:**
 
-* Select Tools → Marked
+* Select Tools → Macdown

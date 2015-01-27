@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Marked",
-        "command": "marked"
+        "caption": "Macdown",
+        "command": "macdown"
     }
 ]
