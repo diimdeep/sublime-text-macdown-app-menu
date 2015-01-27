@@ -5,7 +5,8 @@ Adds a handy menu item that opens [Macdown.app](http://macdown.uranusjr.com/)
 
 **Issues:** https://github.com/diimdeep/sublime-text-macdown-app-menu/issues
 
-![screenshot](http://i.imgur.com/oCEb7.jpg)
+![screenshot](http://i.imgur.com/NG7r5fQ.png)
+![screenshot](http://i.imgur.com/YHg3o89.png)
 
 Adapted from [Marked App Menu](https://github.com/icio/sublime-text-marked) plugin for Sublime Text by Chris Tan. Originally developed by [jocelynmallon](https://github.com/jocelynmallon) and [icio](https://github.com/icio).
 
