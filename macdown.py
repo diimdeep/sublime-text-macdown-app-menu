@@ -15,7 +15,7 @@ class MacdownCommand(sublime_plugin.WindowCommand):
         for k, v in proc_env.items():
             proc_env[k] = os.path.expandvars(v).encode(encoding)
 
-        for app in ('Macdown'):
+        for app in ('Macdown', 'MacDown'):
             try:
                 subprocess.check_call(
                     ['open', '-a', app, filename],
